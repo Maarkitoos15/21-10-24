@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Estilos de Fondo</title>
+  <style>
+    /* Fondo con una imagen repetida en ambas direcciones (comportamiento por defecto) */
+    body {
+      background-image: url("https://bit.ly/2slA7jo");
+    }
+
+    /* Fondo con imagen repetida solo en el eje horizontal (de izquierda a derecha) */
+    .repeat-x {
+      background-image: url("https://bit.ly/2slA7jo");
+      background-repeat: repeat-x;
+    }
+
+    /* Fondo con imagen repetida solo en el eje vertical (de arriba hacia abajo) */
+    .repeat-y {
+      background-image: url("https://bit.ly/2slA7jo");
+      background-repeat: repeat-y;
+    }
+
+    /* Fondo con una imagen que no se repite en ninguna dirección */
+    .no-repeat {
+      background-image: url("https://bit.ly/2slA7jo");
+      background-repeat: no-repeat;
+    }
+
+    /* Fondo con una imagen repetida tanto horizontal como verticalmente (comportamiento por defecto) */
+    .repeat {
+      background-image: url("https://bit.ly/2slA7jo");
+      background-repeat: repeat;
+    }
+
+    /* Fondo con una imagen de tamaño fijo (100px por 100px) */
+    .size-100 {
+      background-image: url("https://bit.ly/2slA7jo");
+      background-size: 100px 100px;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ejemplo de diferentes estilos de fondo</h1>
+
+  <!-- fondo repetido por defecto -->
+  <div class="default">
+    <p>Imagen de fondo repetida por defecto.</p>
+  </div>
+
+  <!--  fondo repetido solo horizontalmente -->
+  <div class="repeat-x">
+    <p>Imagen de fondo repetida horizontalmente (repeat-x).</p>
+  </div>
+
+  <!-- fondo repetido solo verticalmente -->
+  <div class="repeat-y">
+    <p>Imagen de fondo repetida verticalmente (repeat-y).</p>
+  </div>
+
+  <!-- fondo sin repetición -->
+  <div class="no-repeat">
+    <p>Imagen de fondo sin repetirse (no-repeat).</p>
+  </div>
+
+  <!--  fondo repetido en ambas direcciones -->
+  <div class="repeat">
+    <p>Imagen de fondo repetida en ambas direcciones (repeat).</p>
+  </div>
+
+  <!--  imagen de fondo de tamaño fijo -->
+  <div class="size-100">
+    <p>Imagen de fondo redimensionada a 100px por 100px (background-size).</p>
+  </div>
+
+</body>
+</html>

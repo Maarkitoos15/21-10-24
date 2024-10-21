@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Listas de Equipos de Fútbol</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d9e49e;
+       margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ed3f00;
+     
+    }
+
+    
+    .teams-list {
+      list-style-type: square; 
+      /* Marcadores en forma de cuadrado para la lista de equipos */
+      padding-left: 20px; 
+      /* Espaciado a la izquierda para la lista */
+    }
+
+    /* Estilo para la lista ordenada de posiciones */
+    .positions-list {
+      list-style-type: upper-alpha; 
+      /* Numeración con letras mayúsculas para la lista de posiciones */
+      padding-left: 20px; 
+      /* Espaciado a la izquierda para la lista */
+    }
+
+    /* Estilo para la lista con imagen personalizada */
+    .custom-list {
+      list-style-image: url("https://bit.ly/3kjH18y"); 
+      /* Imagen personalizada para los marcadores de la lista */
+      list-style-type: none; 
+      /* Sin marcadores predeterminados */
+      padding-left: 0; 
+      /* Sin espaciado a la izquierda */
+    }
+  </style>
+</head>
+<body>
+  <h1>Equipos de Fútbol Favoritos</h1>
+
+  <h2>Equipos de Fútbol</h2>
+  <ul class="teams-list">
+    <li>FC Barcelona</li>
+    <li>Real Madrid</li>
+    <li>Bayern Múnich</li>
+    <li>Manchester United</li>
+    <li>Juventus</li>
+  </ul>
+
+  <h2>Posiciones en la Liga</h2>
+  <ol class="positions-list">
+    <li>1. FC Barcelona</li>
+    <li>2. Real Madrid</li>
+    <li>3. Atlético de Madrid</li>
+    <li>4. Sevilla FC</li>
+  </ol>
+
+  <h2>Equipos con Marcadores Personalizados</h2>
+  <ul class="custom-list">
+    <li>Paris Saint-Germain</li>
+    <li>Manchester City</li>
+    <li>Inter de Milán</li>
+  </ul>
+  
+</body>
+</html>
